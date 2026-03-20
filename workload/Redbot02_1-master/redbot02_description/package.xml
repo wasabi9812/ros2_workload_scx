@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>redbot02_description</name>
+  <version>1.0.0</version>
+  <description>
+    The redbot02_description package
+  </description>
+  <license>Apache 2.0</license>
+  <maintainer email="ggp032177@naver.com">Choi JunHyeon</maintainer>
+  <author email="ggp032177@naver.com">Choi JunHyeon</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  
+
+</package>

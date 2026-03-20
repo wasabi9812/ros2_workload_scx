@@ -1,0 +1,77 @@
+<launch>
+
+  <!-- Arguments -->
+  <arg name="model" default="$(env CASEBOT_MODEL)" doc="model type [uvbot, redbot02]"/>
+  <arg name="robot_model" default="$(find redbot02_description)/urdf/$(arg model).urdf"/>
+  <arg name="map_path" default="$(find redbot02_slam)/maps/"/>
+  <arg name="map_name" default="dentist"/>
+  <arg name="cmd_vel_topic" default="cmd_vel"/>
+  <!-- <arg name="cmd_vel_topic" default="/nav_vel"/> -->
+  <arg name="odom_topic" default="odom"/>
+  <arg name="scan_topic"     value="scan"/>
+  <arg name="odom_frame_id"   value="odom"/>
+  <arg name="base_frame_id"   value="base_link"/>
+  <arg name="move_forward_only" default="true"/>
+
+  <!-- Gmapping -->
+  <include file="$(find redbot02_slam)/launch/gmapping.launch">
+
+  </include>
+  <!-- AMCL -->
+  <include file="$(find redbot02_navigation)/launch/amcl.launch">
+    <arg name="scan_topic"     value="$(arg model)/$(arg scan_topic)"/>
+    <arg name="odom_frame_id"   value="$(arg model)/$(arg odom_frame_id)"/>
+    <arg name="base_frame_id"   value="$(arg model)/$(arg base_frame_id)"/>
+    <!-- <remap from="/redbot/map" to="/map"/> -->
+  </include>
+
+  <group ns="redbot02">
+    <!-- map_server -->
+    
+    <!-- <node pkg="tf" type="static_transform_publisher" name="redbot_map_tf_publisher" args="0 0 0 0 0 0 /map /redbot/odom 100"/> -->
+    
+    <!-- redbot02_core node -->
+    <include file="$(find redbot02_core)/launch/core.launch">
+      <remap from="cmd_vel" to="$(arg model)/cmd_vel"/>
+    </include>
+
+    <!-- redbot02_odometry_publisher node -->
+    <include file="$(find redbot02_odometry)/launch/odom.launch">
+      <remap from="odom" to="$(arg model)/odom"/>
+    </include>  
+
+    <!-- robot model transform -->
+    <param name="robot_description" textfile="$(arg robot_model)"/>
+
+    <!-- publish tf topics -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+        <param name="publish_frequency" type="double" value="50.0"/>
+        <param name="tf_prefix" type="string" value="redbot02"/>
+        <!-- <param name="use_tf_static" type="bool" value="false"/> -->
+    </node>
+
+    <!-- sensor -->
+    <include file="$(find ydlidar_ros_driver)/launch/TG.launch">
+      <param name="frame_id" default="$(arg model)/laser_frame"/>
+      <param name="port" default="/dev/ttyUSB0"/> <!-- 추후 포트 변경 가능 -->
+    </include>
+
+    <!-- <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+      <arg name="tf_prefix" value="$(arg model)/" />
+    </include> -->
+
+    <!-- move_base -->
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+        <rosparam file="$(find redbot02_navigation)/param/$(arg model)/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find redbot02_navigation)/param/$(arg model)/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find redbot02_navigation)/param/$(arg model)/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find redbot02_navigation)/param/$(arg model)/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find redbot02_navigation)/param/$(arg model)/move_base_params.yaml" command="load" />
+        <rosparam file="$(find redbot02_navigation)/param/$(arg model)/dwa_local_planner_params.yaml" command="load" />
+        <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
+        <remap from="odom" to="$(arg model)/$(arg odom_topic)"/>
+    </node>
+  </group>
+
+</launch>

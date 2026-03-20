@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="redbot02_navigation" name="clear_costmap" type="clear_costmap" output="screen">
+      <param name="clear_hz" value="0.2"/>
+  </node>
+</launch>

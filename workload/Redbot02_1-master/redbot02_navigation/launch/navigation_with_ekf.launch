@@ -1,0 +1,62 @@
+<launch>
+
+  <!-- Arguments -->
+  <arg name="model" default="$(env CASEBOT_MODEL)" doc="model type [uvbot, redbot02]"/>
+  <arg name="robot_model" default="$(find redbot02_description)/urdf/$(arg model).urdf"/>
+  <arg name="map_file" default="$(find redbot02_slam)/maps/skku_7th.yaml"/>
+  <arg name="cmd_vel_topic" default="/cmd_vel"/>
+  <!-- <arg name="cmd_vel_topic" default="/nav_vel"/> -->
+  <arg name="odom_topic" default="/odom"/>
+  <arg name="move_forward_only" default="true"/>
+
+  <!-- redbot02_core node -->
+  <include file="$(find redbot02_core)/launch/core_with_imu.launch"/>
+
+  <!-- redbot02_ekf node -->
+  <include file="$(find redbot02_odometry)/launch/ekf.launch">
+  </include>   
+
+  <!-- robot model transform -->
+  <param name="robot_description" textfile="$(arg robot_model)"/>
+
+  <!-- publish tf topics -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="50.0"/>
+    <param name="tf_prefix" type="string" value=""/>
+      <!-- <param name="use_tf_static" type="bool" value="false"/> -->
+  </node>
+
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+    <param name="use_gui" value="false"/>
+    <param name="rate" value="50"/>
+  </node>
+
+  <!-- sensor -->
+  <include file="$(find ydlidar_ros_driver)/launch/TG.launch">
+    <param name="frame_id" default="lidar_scan"/>
+    <param name="port" default="/dev/ttyLIDAR"/> <!-- 추후 포트 변경 가능 -->
+  </include>
+
+  <!-- map_server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+    <!-- <node pkg="tf" type="static_transform_publisher" name="redbot_map_tf_publisher" args="0 0 0 0 0 0 /map /redbot/odom 100"/> -->
+
+  <!-- AMCL -->
+  <include file="$(find redbot02_navigation)/launch/amcl.launch"/>
+
+  <!-- CLEAR COSTMAP -->
+  <include file="$(find redbot02_navigation)/launch/clear_costmap.launch"/>
+
+  <!-- move_base -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+    <rosparam file="$(find redbot02_navigation)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find redbot02_navigation)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find redbot02_navigation)/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find redbot02_navigation)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find redbot02_navigation)/param/move_base_params.yaml" command="load" />
+    <rosparam file="$(find redbot02_navigation)/param/dwa_local_planner_params.yaml" command="load" />
+    <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
+    <remap from="odom" to="$(arg odom_topic)"/>
+  </node>
+</launch>

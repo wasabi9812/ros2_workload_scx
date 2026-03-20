@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>redbot02</name>
+  <version>1.0.0</version>
+  <description>
+    ROS package for CASELab Robot (meta package)
+  </description>
+  <license>Apache 2.0</license>
+
+  <maintainer email="ksw7384@skku.edu"> seungwonkwon</maintainer>
+  <author email="ksw7384@skku.edu">seungwonkwon</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- redbot02 package list -->
+  <exec_depend>casebot_core</exec_depend>
+  <exec_depend>redbot02_core</exec_depend>
+  <exec_depend>redbot02_odometry</exec_depend>
+  <exec_depend>redbot02_description</exec_depend>
+  <exec_depend>redbot02_slam</exec_depend>
+  <exec_depend>redbot02_navigation</exec_depend>
+
+  <!-- This is meta package -->
+  <export><metapackage/></export>
+</package>

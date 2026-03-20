@@ -1,0 +1,35 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="model" default="$(env CASEBOT_MODEL)" doc="model type [uvbot, redbot02]"/>
+  <arg name="robot_model" default="$(find redbot02_description)/urdf/$(arg model).urdf.xacro"/>
+
+  <!-- redbot02_core node -->
+  <!-- <include file="$(find redbot02_core)/launch/core.launch"/> -->
+
+  <!-- redbot02_odometry_publisher node -->
+  <!-- <include file="$(find redbot02_odometry)/launch/odom.launch"/> -->
+    <!-- <remap from="odom" to="$(arg model)/odom"/> --> 
+
+  <!-- redbot02_ekf node -->
+  <!-- <include file="$(find redbot02_odometry)/launch/ekf.launch"> -->
+    <!-- <remap from="odom" to="$(arg model)/odom"/> -->
+  <!-- </include>    -->
+
+  <!-- casebot_core_node -->
+  <!-- <include file="$(find casebot_core)/launch/casebot_core.launch"/> -->
+
+  <!-- robot model transform -->
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find redbot02_description)/urdf/redbot02.urdf.xacro' use_nominal_extrinsics:=true" />
+  
+  <!-- publish tf topics -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="50.0"/>
+    <param name="tf_prefix" type="string" value=""/>
+      <!-- <param name="use_tf_static" type="bool" value="false"/> -->
+  </node>
+
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+    <param name="use_gui" value="false"/>
+    <param name="rate" value="50"/>
+  </node>
+</launch>

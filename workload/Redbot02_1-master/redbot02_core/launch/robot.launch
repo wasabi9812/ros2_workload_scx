@@ -1,0 +1,17 @@
+<launch>  
+  <arg name="model" default="$(env CASEBOT_MODEL)" doc="model type [uvbot, redbot02]"/>
+  <arg name="robot_model" default="$(find redbot02_description)/urdf/$(arg model).urdf"/>
+  <!-- redbot02_core node -->
+  <include file="$(find redbot02_core)/launch/core.launch"/>
+
+  <!-- redbot02_odometry_publisher node -->
+  <!-- <include file="$(find redbot02_odometry)/launch/odom.launch">
+    <remap from="odom" to="$(arg model)/odom"/>
+  </include>   -->
+  
+  <!-- sensor -->
+  <include file="$(find ydlidar_ros_driver)/launch/TG.launch">
+    <param name="frame_id" default="lidar_scan"/>
+    <param name="port" default="/dev/ttyUSB0"/> <!-- 추후 포트 변경 가능 -->
+  </include>
+</launch>

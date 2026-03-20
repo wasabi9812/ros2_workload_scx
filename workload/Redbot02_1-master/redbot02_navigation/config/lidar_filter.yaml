@@ -1,0 +1,24 @@
+scan_filter_chain:
+- name: BracketBoundsFilter1
+  type: laser_filters/LaserScanAngularBoundsFilterInPlace
+  params:
+    lower_angle: 2.87
+    upper_angle: 3.141592
+
+- name: BracketBoundsFilter2
+  type: laser_filters/LaserScanAngularBoundsFilterInPlace
+  params:
+    lower_angle: -3.141592
+    upper_angle: -2.87
+
+- name: ProfileBoundsFilter1
+  type: laser_filters/LaserScanAngularBoundsFilterInPlace
+  params:
+    lower_angle: 2.5
+    upper_angle: 2.87
+
+- name: ProfileBoundsFilter2
+  type: laser_filters/LaserScanAngularBoundsFilterInPlace
+  params:
+    lower_angle: -2.87
+    upper_angle: -2.5

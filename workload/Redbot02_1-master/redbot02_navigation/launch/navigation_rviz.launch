@@ -1,0 +1,4 @@
+<launch>
+  <!-- launching rviz node -->
+  <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find redbot02_navigation)/rviz/redbot02_navigation.rviz"/>
+</launch>

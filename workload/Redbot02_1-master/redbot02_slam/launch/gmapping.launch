@@ -1,0 +1,53 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="model" default="$(env CASEBOT_MODEL)" doc="model type [uvbot, redbot02]"/>
+  <arg name="robot_model" default="$(find redbot02_description)/urdf/$(arg model).urdf"/>
+  
+  <!-- redbot02_core node -->
+  <include file="$(find redbot02_core)/launch/core.launch">
+    <!-- <remap from="cmd_vel" to="$(arg model)/cmd_vel"/> -->
+  </include>
+
+  <!-- redbot02_odometry_publisher node -->
+  <include file="$(find redbot02_odometry)/launch/odom.launch">
+    <!-- <remap from="odom" to="$(arg model)/odom"/> -->
+  </include> 
+
+  <!-- robot model transform -->
+  <param name="robot_description" textfile="$(arg robot_model)"/>
+
+  <!-- publish tf topics -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+        <param name="publish_frequency" type="double" value="50.0"/>
+        <param name="tf_prefix" type="string" value=""/>
+        <!-- <param name="use_tf_static" type="bool" value="false"/> -->
+  </node>
+
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+    <param name="use_gui" value="false"/>
+    <param name="rate" value="50"/>
+  </node>
+
+  <!-- sensor -->
+  <include file="$(find ydlidar_ros_driver)/launch/TG.launch">
+    <param name="frame_id" default="lidar_scan"/>
+    <param name="port" default="/dev/ttyUSB0"/> <!-- 추후 포트 변경 가능 -->
+  </include>
+
+  <!-- Arguments -->
+  <arg name="set_base_frame" default="base_footprint"/>
+  <arg name="set_odom_frame" default="odom"/>
+  <arg name="set_map_frame"  default="map"/>
+
+  <!-- Gmapping -->
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
+    <param name="base_frame" value="$(arg set_base_frame)"/>
+    <param name="odom_frame" value="$(arg set_odom_frame)"/>
+    <param name="map_frame"  value="$(arg set_map_frame)"/>
+    <rosparam command="load" file="$(find redbot02_slam)/param/gmapping.yaml" />
+    <!-- <remap from="scan" to="redbot02/scan"/> -->
+  </node>
+
+  <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find redbot02_slam)/rviz/redbot02_rviz"/>
+</launch>

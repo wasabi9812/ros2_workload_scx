@@ -1,0 +1,14 @@
+<launch>
+  <!-- Redbot02 core node -->
+  <node pkg="redbot02_core" type="redbot02_core" name="redbot02_core" output="screen">
+    <rosparam file="$(find redbot02_core)/param/param.yaml" command="load"/>
+  </node>
+
+  <!-- Launch IMU node -->
+  <!-- <include file="$(find redbot02_core)/launch/imu.launch"/>  -->
+
+  <!-- <node pkg="teleop_twist_keyboard_cpp" type="teleop_twist_keyboard" name="teleop_twist_keyboard"  output="screen">
+  </node> -->
+
+  
+</launch>

@@ -1,0 +1,10 @@
+sensor_source:
+  ros__parameters:
+    topic_name: /sensor_input
+    rate_hz: 50.0
+    payload_bytes: 128
+
+    burst_enable: false
+    burst_size: 1
+
+    source_id: 0

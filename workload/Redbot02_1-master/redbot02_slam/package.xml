@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>redbot02_slam</name>
+  <version>0.1.0</version>
+  <description>The Redbot02 SLAM package</description>
+
+  <maintainer email="cnr@todo.todo">cnr</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>redbot02_core</exec_depend>
+  <exec_depend>redbot02_odometry</exec_depend>
+  <exec_depend>amcl</exec_depend>
+  <exec_depend>move_base</exec_depend>
+
+</package>

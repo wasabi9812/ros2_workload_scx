@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--패키지 설정부분 -->
+<package format="2">
+  <!--패키지 이름-->
+  <name>redbot02_core</name>
+  <!--패키지 버전 자유롭게 정할수 있음-->
+  <version>0.1.0</version>
+  <!--패키지 설명 자유롭개 정할수 있음-->
+  <description>The redbot02_core package</description>
+
+  <!--패키지 관리자 이름과 이메일-->
+  <maintainer email="cjh@todo.todo">cjh</maintainer>
+
+  <!--라이센스 기재 Apache MIT BSD 등등-->
+  <license>Apache 2.0</license>
+
+  <!--패키지를 설명하는 웹페이지 주소를 기재 필요시 주석해제-->
+  <!-- <url type="website">http://wiki.ros.org/motor114_core</url> -->
+
+  <!--패키지 개발에 참여한 개발자의 이름과 이메일 주소 복수일경우 바로 다음줄에 입력-->
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+
+  
+ 
+  <!--빌드 시스템의 의존성을 기술한다 현재 catkin-->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!--패키지를 빌드할떄 의존하는 패키지를 적는다-->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <depend>socketcan_interface</depend>
+  <depend>can_msgs</depend>
+
+  <!--패키지를 빌드하기 위해 필요한 패키지를 적는다-->
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <!--runtime 에 필요한 패키지를 적는다-->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  
+  <!--기타-->
+  <!--   <depend>roscpp</depend> -->
+  <!--   Note that this is equivalent to the following: -->
+  <!--   <build_depend>roscpp</build_depend> -->
+  <!--   <exec_depend>roscpp</exec_depend> -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!--   <build_depend>message_generation</build_depend> -->
+  <!-- Use build_export_depend for packages you need in order to build against this package: -->
+  <!--   <build_export_depend>message_generation</build_export_depend> -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use exec_depend for packages you need at runtime: -->
+  <!--   <exec_depend>message_runtime</exec_depend> -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <!-- Use doc_depend for packages you need only for building documentation: -->
+  <!--   <doc_depend>doxygen</doc_depend> -->
+
+
+  <!--ROS에서 명시하지 않은 태그명을 사용할때 쓰인다.-->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

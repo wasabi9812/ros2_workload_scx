@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="redbot02_camera_detection" type="color_detection.py" name="color_detection" output="screen"/>
+</launch>

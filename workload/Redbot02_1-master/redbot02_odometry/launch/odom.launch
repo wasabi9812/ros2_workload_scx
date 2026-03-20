@@ -1,0 +1,6 @@
+<launch>
+  <!-- redbot02 odometry node -->
+  <node pkg="redbot02_odometry" type="odometry_publisher" name="odometry_publisher" output="screen">
+    <rosparam file="$(find redbot02_odometry)/param/param.yaml" command="load"/>
+  </node>
+</launch>
