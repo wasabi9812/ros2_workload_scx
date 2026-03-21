@@ -1,0 +1,66 @@
+[0.008s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/process': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/test/src/process -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/test/install/process
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.094s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.407s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.489s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.515s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.522s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.595s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.597s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.670s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Found sensor: 0.0.0 (/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake)
+[0.745s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.835s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.835s] -- Configured cppcheck include dirs: 
+[0.835s] -- Configured cppcheck exclude dirs and/or files: 
+[0.836s] -- Added test 'lint_cmake' to check CMake code style
+[0.836s] -- Added test 'uncrustify' to check C / C++ code style
+[0.836s] -- Configured uncrustify additional arguments: 
+[0.836s] -- Added test 'xmllint' to check XML markup files
+[0.837s] -- Configuring done (0.8s)
+[0.844s] -- Generating done (0.0s)
+[0.846s] -- Build files have been written to: /home/cnrlab/Desktop/scx_basic/workload/test/build/process
+[0.854s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/process' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/test/src/process -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/test/install/process
+[0.855s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/process': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/test/build/process -- -j20 -l20
+[0.894s] [ 50%] [32mBuilding CXX object CMakeFiles/preprocess_node.dir/src/preprocess_node.cpp.o[0m
+[6.324s] [100%] [32m[1mLinking CXX executable preprocess_node[0m
+[6.495s] [100%] Built target preprocess_node
+[6.503s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/process' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/test/build/process -- -j20 -l20
+[6.504s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/process': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/test/build/process
+[6.509s] -- Install configuration: ""
+[6.510s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/lib/process/preprocess_node
+[6.511s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/process/lib/process/preprocess_node" to ""
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/config
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/config/process_config.yaml
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/ament_index/resource_index/package_run_dependencies/process
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/ament_index/resource_index/parent_prefix_path/process
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/environment/ament_prefix_path.sh
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/environment/ament_prefix_path.dsv
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/environment/path.sh
+[6.512s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/environment/path.dsv
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/local_setup.bash
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/local_setup.sh
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/local_setup.zsh
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/local_setup.dsv
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/package.dsv
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/ament_index/resource_index/packages/process
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/cmake/processConfig.cmake
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/cmake/processConfig-version.cmake
+[6.513s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/process/share/process/package.xml
+[6.514s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/process' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/test/build/process

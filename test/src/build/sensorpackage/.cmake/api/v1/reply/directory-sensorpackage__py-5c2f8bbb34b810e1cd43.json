@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sensorpackage__py",
+		"source" : "/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensorpackage/sensorpackage__py"
+	}
+}

@@ -1,0 +1,241 @@
+[0.008s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/sensor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/test/src/sensor -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.097s] -- The CXX compiler identification is GNU 13.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.475s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.500s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.508s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.581s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.646s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.660s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.735s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.742s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.201s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.983s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.101s] -- Found PythonExtra: /usr/bin/python3  
+[2.449s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.477s] -- Configuring done (2.5s)
+[2.500s] -- Generating done (0.0s)
+[2.508s] -- Build files have been written to: /home/cnrlab/Desktop/scx_basic/workload/test/build/sensor
+[2.523s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/test/src/sensor -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor
+[2.524s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/sensor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/test/build/sensor -- -j20 -l20
+[2.564s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.571s] [  2%] Built target ament_cmake_python_copy_sensor
+[2.702s] [  2%] Built target sensor__rosidl_generator_type_description
+[2.712s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.713s] running egg_info
+[2.715s] creating sensor.egg-info
+[2.729s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.731s] writing sensor.egg-info/PKG-INFO
+[2.731s] writing dependency_links to sensor.egg-info/dependency_links.txt
+[2.732s] writing top-level names to sensor.egg-info/top_level.txt
+[2.732s] writing manifest file 'sensor.egg-info/SOURCES.txt'
+[2.765s] reading manifest file 'sensor.egg-info/SOURCES.txt'
+[2.765s] writing manifest file 'sensor.egg-info/SOURCES.txt'
+[2.792s] [  8%] Built target ament_cmake_python_build_sensor_egg
+[2.894s] [  8%] Built target sensor__cpp
+[2.903s] [ 16%] [32mBuilding C object CMakeFiles/sensor__rosidl_generator_c.dir/rosidl_generator_c/sensor/msg/detail/workload_msg__functions.c.o[0m
+[2.903s] [ 16%] [32mBuilding C object CMakeFiles/sensor__rosidl_generator_c.dir/rosidl_generator_c/sensor/msg/detail/workload_msg__type_support.c.o[0m
+[2.903s] [ 16%] [32mBuilding C object CMakeFiles/sensor__rosidl_generator_c.dir/rosidl_generator_c/sensor/msg/detail/workload_msg__description.c.o[0m
+[2.940s] [ 19%] [32m[1mLinking C shared library libsensor__rosidl_generator_c.so[0m
+[2.968s] [ 19%] Built target sensor__rosidl_generator_c
+[2.976s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.976s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.977s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.977s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.977s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.977s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.150s] [ 38%] [32mBuilding CXX object CMakeFiles/sensor__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor/msg/workload_msg__type_support.cpp.o[0m
+[3.156s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor/msg/workload_msg__type_support.cpp.o[0m
+[3.163s] [ 44%] [32mBuilding C object CMakeFiles/sensor__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor/msg/detail/workload_msg__type_support.c.o[0m
+[3.171s] [ 47%] [32mBuilding CXX object CMakeFiles/sensor__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor/msg/detail/workload_msg__type_support_c.cpp.o[0m
+[3.179s] [ 50%] [32m[1mLinking CXX shared library libsensor__rosidl_typesupport_c.so[0m
+[3.193s] [ 52%] [32m[1mLinking C shared library libsensor__rosidl_typesupport_introspection_c.so[0m
+[3.194s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor/msg/detail/dds_fastrtps/workload_msg__type_support.cpp.o[0m
+[3.212s] [ 55%] Built target sensor__rosidl_typesupport_c
+[3.220s] [ 55%] Built target sensor__rosidl_typesupport_introspection_c
+[3.234s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor/msg/detail/workload_msg__type_support.cpp.o[0m
+[3.384s] [ 61%] [32m[1mLinking CXX shared library libsensor__rosidl_typesupport_cpp.so[0m
+[3.425s] [ 61%] Built target sensor__rosidl_typesupport_cpp
+[3.446s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_source.dir/src/sensor_source.cpp.o[0m
+[3.473s] [ 66%] [32m[1mLinking CXX shared library libsensor__rosidl_typesupport_introspection_cpp.so[0m
+[3.497s] [ 69%] [32m[1mLinking CXX shared library libsensor__rosidl_typesupport_fastrtps_c.so[0m
+[3.554s] [ 69%] Built target sensor__rosidl_typesupport_introspection_cpp
+[3.573s] [ 72%] [32m[1mLinking CXX shared library libsensor__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.586s] [ 72%] Built target sensor__rosidl_typesupport_fastrtps_c
+[3.636s] [ 72%] Built target sensor__rosidl_typesupport_fastrtps_cpp
+[3.653s] [ 72%] Built target sensor
+[3.672s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.880s] [ 75%] Built target sensor__py
+[3.896s] [ 77%] [32mBuilding C object CMakeFiles/sensor__rosidl_generator_py.dir/rosidl_generator_py/sensor/msg/_workload_msg_s.c.o[0m
+[3.986s] [ 80%] [32m[1mLinking C shared library libsensor__rosidl_generator_py.so[0m
+[4.020s] [ 80%] Built target sensor__rosidl_generator_py
+[4.038s] [ 86%] [32mBuilding C object CMakeFiles/sensor_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sensor/_sensor_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.038s] [ 86%] [32mBuilding C object CMakeFiles/sensor_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sensor/_sensor_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.038s] [ 88%] [32mBuilding C object CMakeFiles/sensor_s__rosidl_typesupport_c.dir/rosidl_generator_py/sensor/_sensor_s.ep.rosidl_typesupport_c.c.o[0m
+[4.103s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/sensor/sensor_s__rosidl_typesupport_introspection_c.so[0m
+[4.104s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/sensor/sensor_s__rosidl_typesupport_c.so[0m
+[4.104s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.129s] [ 97%] Built target sensor_s__rosidl_typesupport_c
+[4.129s] [ 97%] Built target sensor_s__rosidl_typesupport_fastrtps_c
+[4.129s] [ 97%] Built target sensor_s__rosidl_typesupport_introspection_c
+[6.615s] [100%] [32m[1mLinking CXX executable sensor_source[0m
+[6.736s] [100%] Built target sensor_source
+[6.746s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/test/build/sensor -- -j20 -l20
+[6.754s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/sensor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/test/build/sensor
+[6.762s] -- Install configuration: ""
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/ament_index/resource_index/rosidl_interfaces/sensor
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/msg/WorkloadMsg.json
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__struct.h
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__description.c
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.c
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__functions.c
+[6.762s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.h
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__functions.h
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/rosidl_generator_c__visibility_control.h
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/workload_msg.h
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/library_path.sh
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/library_path.dsv
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_generator_c.so
+[6.763s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_generator_c.so" to ""
+[6.763s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor
+[6.763s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg
+[6.763s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_fastrtps_c.h
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.763s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_c.so
+[6.764s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_c.so" to ""
+[6.764s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor
+[6.764s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg
+[6.764s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.hpp
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__traits.hpp
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__builder.hpp
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__struct.hpp
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/workload_msg.hpp
+[6.764s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor
+[6.764s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg
+[6.764s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/dds_fastrtps
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.764s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_cpp.so
+[6.765s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.765s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor
+[6.765s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg
+[6.765s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail
+[6.765s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.c
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_introspection_c.h
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_introspection_c.so
+[6.765s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_introspection_c.so" to ""
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_c.so
+[6.765s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_c.so" to ""
+[6.765s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor
+[6.765s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg
+[6.765s] -- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.cpp
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_introspection_cpp.hpp
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_introspection_cpp.so
+[6.765s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_introspection_cpp.so" to ""
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_cpp.so
+[6.765s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_typesupport_cpp.so" to ""
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/pythonpath.sh
+[6.765s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/pythonpath.dsv
+[6.766s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info
+[6.766s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/top_level.txt
+[6.766s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.766s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/PKG-INFO
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/_sensor_s.ep.rosidl_typesupport_c.c
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/_sensor_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_introspection_c.so
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/msg
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/msg/_workload_msg_s.c
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/msg/_workload_msg.py
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/msg/__init__.py
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_c.so
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/_sensor_s.ep.rosidl_typesupport_introspection_c.c
+[6.767s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so
+[6.768s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/__init__.py
+[6.796s] Listing '/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor'...
+[6.797s] Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/__init__.py'...
+[6.797s] Listing '/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/msg'...
+[6.797s] Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/msg/__init__.py'...
+[6.797s] Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/msg/_workload_msg.py'...
+[6.801s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so
+[6.801s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.801s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_introspection_c.so
+[6.801s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_introspection_c.so" to ""
+[6.802s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_c.so
+[6.802s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_c.so" to ""
+[6.802s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_generator_py.so
+[6.802s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/libsensor__rosidl_generator_py.so" to ""
+[6.802s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/msg/WorkloadMsg.idl
+[6.802s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/msg/WorkloadMsg.msg
+[6.802s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/sensor/sensor_source
+[6.803s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/lib/sensor/sensor_source" to ""
+[6.803s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/config
+[6.803s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/config/workload_config.yaml
+[6.803s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/ament_index/resource_index/package_run_dependencies/sensor
+[6.804s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/ament_index/resource_index/parent_prefix_path/sensor
+[6.804s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/ament_prefix_path.sh
+[6.804s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/ament_prefix_path.dsv
+[6.804s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/path.sh
+[6.804s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/environment/path.dsv
+[6.804s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/local_setup.bash
+[6.805s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/local_setup.sh
+[6.805s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/local_setup.zsh
+[6.805s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/local_setup.dsv
+[6.805s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/package.dsv
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/ament_index/resource_index/packages/sensor
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_cExport.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_cExport-noconfig.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cExport.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_cppExport.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cExport.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.806s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cExport.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cExport-noconfig.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cppExport.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cppExport.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cppExport-noconfig.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_pyExport.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_pyExport-noconfig.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/rosidl_cmake-extras.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/ament_cmake_export_libraries-extras.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/ament_cmake_export_targets-extras.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensorConfig.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/cmake/sensorConfig-version.cmake
+[6.807s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/install/sensor/share/sensor/package.xml
+[6.809s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/test/build/sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/test/build/sensor

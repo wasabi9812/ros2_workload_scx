@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e46f09d55fa89fd5e03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "workload_nodes__py",
+					"jsonFile" : "directory-workload_nodes__py-be046aee9e6b0aa12345.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes/workload_nodes__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "workload_nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_workload_nodes_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_workload_nodes_egg-c19c0a79d89a6e09a6a7.json",
+					"name" : "ament_cmake_python_build_workload_nodes_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_workload_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_workload_nodes-d211ed56707ab8c9cb64.json",
+					"name" : "ament_cmake_python_copy_workload_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_source::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_source-a077f9931e4b6dc6b452.json",
+					"name" : "sensor_source",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-94519e1c0003cdaf79d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes-857aca0f9fb9e354cdea.json",
+					"name" : "workload_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__cpp-2f9039fbc81979589e43.json",
+					"name" : "workload_nodes__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "workload_nodes__py::@bf8312306f6eb9e21a5c",
+					"jsonFile" : "target-workload_nodes__py-5944c9decea616c9ae13.json",
+					"name" : "workload_nodes__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_generator_c-d53327eb73061685cb5c.json",
+					"name" : "workload_nodes__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_generator_py-d4c9ef9a558db475f1d6.json",
+					"name" : "workload_nodes__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_generator_type_description-c3f9cae9480a6f5040f2.json",
+					"name" : "workload_nodes__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_typesupport_c-8832ba1da48877fe847b.json",
+					"name" : "workload_nodes__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_typesupport_cpp-ad76ed38486eb5b571b0.json",
+					"name" : "workload_nodes__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_typesupport_fastrtps_c-edb185ee021cc6cbda53.json",
+					"name" : "workload_nodes__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_typesupport_fastrtps_cpp-5e40f4ec363c5e9ea04d.json",
+					"name" : "workload_nodes__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_typesupport_introspection_c-b9ae1452cfb2f92b8a80.json",
+					"name" : "workload_nodes__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes__rosidl_typesupport_introspection_cpp-1d4284bbc240fd76be50.json",
+					"name" : "workload_nodes__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes_s__rosidl_typesupport_c-78270a591165a8c8d89f.json",
+					"name" : "workload_nodes_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes_s__rosidl_typesupport_fastrtps_c-381b5bf696f5e9582def.json",
+					"name" : "workload_nodes_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes_s__rosidl_typesupport_introspection_c-c1d5cb9c1792f460ff8f.json",
+					"name" : "workload_nodes_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "workload_nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-workload_nodes_uninstall-55dcba11495fabcc1801.json",
+					"name" : "workload_nodes_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes",
+		"source" : "/home/cnrlab/Desktop/scx_basic/workload/test/src/workload_nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

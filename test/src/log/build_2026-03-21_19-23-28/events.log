@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (sensor) JobQueued: {'identifier': 'sensor', 'dependencies': OrderedDict()}
+[0.000334] (sensor) JobStarted: {'identifier': 'sensor'}
+[0.007008] (sensor) JobProgress: {'identifier': 'sensor', 'progress': 'cmake'}
+[0.007209] (sensor) Command: {'cmd': ['/usr/bin/cmake', '/home/cnrlab/Desktop/scx_basic/workload/test/src/sensor', '-DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor'], 'cwd': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/cnrlab', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'cnrlab', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cnrlab', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-0e79258d-1.11-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2348', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2846', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3706', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cnrlab', 'JOURNAL_STREAM': '9:26940', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'cnrlab', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/cnrlab/.codex/tmp/arg0/codex-arg01qMJ2Q:/opt/ros/jazzy/bin:/home/cnrlab/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cnrlab/.vscode/extensions/openai.chatgpt-26.5318.11754-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/cnrlab:@/tmp/.ICE-unix/2797,unix/cnrlab:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '33c07fac45b4463ab25bb6a415ebafb0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019d0fa2-6d15-7cd3-b4ef-8184b0945c71', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/cnrlab/.config/Code/CachedData/07ff9d6178ede9a1bd12ad3399074d726ebe6e43', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'VSCODE_PID': '3706'}), 'shell': False}
+[0.054226] (sensor) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.098843] (sensor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099575] (-) TimerEvent: {}
+[0.111536] (sensor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.188910] (sensor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.195038] (sensor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.195327] (sensor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.195447] (sensor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199695] (-) TimerEvent: {}
+[0.204649] (sensor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.288590] (sensor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.295649] (sensor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.295926] (sensor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.296112] (sensor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.297826] (sensor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299759] (-) TimerEvent: {}
+[0.399951] (-) TimerEvent: {}
+[0.404198] (sensor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.476293] (sensor) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500044] (-) TimerEvent: {}
+[0.500742] (sensor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.508691] (sensor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.518449] (sensor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.529257] (sensor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.577271] (sensor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.578751] (sensor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600125] (-) TimerEvent: {}
+[0.633810] (sensor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.647424] (sensor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.666473] (sensor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700242] (-) TimerEvent: {}
+[0.724056] (sensor) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.733597] (sensor) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.800333] (-) TimerEvent: {}
+[0.900483] (-) TimerEvent: {}
+[1.000664] (-) TimerEvent: {}
+[1.100855] (-) TimerEvent: {}
+[1.173083] (sensor) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.200939] (-) TimerEvent: {}
+[1.301086] (-) TimerEvent: {}
+[1.401233] (-) TimerEvent: {}
+[1.501394] (-) TimerEvent: {}
+[1.601635] (-) TimerEvent: {}
+[1.701868] (-) TimerEvent: {}
+[1.703668] (sensor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802001] (-) TimerEvent: {}
+[1.902180] (-) TimerEvent: {}
+[1.918115] (sensor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.919735] (sensor) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.002303] (-) TimerEvent: {}
+[2.031117] (sensor) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.102563] (-) TimerEvent: {}
+[2.202828] (-) TimerEvent: {}
+[2.303014] (-) TimerEvent: {}
+[2.403188] (-) TimerEvent: {}
+[2.420129] (sensor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.446299] (sensor) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.468235] (sensor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.476423] (sensor) StdoutLine: {'line': b'-- Build files have been written to: /home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor\n'}
+[2.485120] (sensor) CommandEnded: {'returncode': 0}
+[2.485718] (sensor) JobProgress: {'identifier': 'sensor', 'progress': 'build'}
+[2.486108] (sensor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor', '--', '-j20', '-l20'], 'cwd': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/cnrlab', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'cnrlab', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cnrlab', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-0e79258d-1.11-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2348', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2846', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3706', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cnrlab', 'JOURNAL_STREAM': '9:26940', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'cnrlab', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/cnrlab/.codex/tmp/arg0/codex-arg01qMJ2Q:/opt/ros/jazzy/bin:/home/cnrlab/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cnrlab/.vscode/extensions/openai.chatgpt-26.5318.11754-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/cnrlab:@/tmp/.ICE-unix/2797,unix/cnrlab:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '33c07fac45b4463ab25bb6a415ebafb0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019d0fa2-6d15-7cd3-b4ef-8184b0945c71', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/cnrlab/.config/Code/CachedData/07ff9d6178ede9a1bd12ad3399074d726ebe6e43', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'VSCODE_PID': '3706'}), 'shell': False}
+[2.503286] (-) TimerEvent: {}
+[2.526607] (sensor) StdoutLine: {'line': b'[  2%] Generating type hashes for ROS interfaces\n'}
+[2.533209] (sensor) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_sensor\n'}
+[2.603405] (-) TimerEvent: {}
+[2.661444] (sensor) StdoutLine: {'line': b'[  2%] Built target sensor__rosidl_generator_type_description\n'}
+[2.667414] (sensor) StdoutLine: {'line': b'running egg_info\n'}
+[2.668067] (sensor) StdoutLine: {'line': b'creating sensor.egg-info\n'}
+[2.670074] (sensor) StdoutLine: {'line': b'[  5%] Generating C code for ROS interfaces\n'}
+[2.676655] (sensor) StdoutLine: {'line': b'[  8%] Generating C++ code for ROS interfaces\n'}
+[2.678917] (sensor) StdoutLine: {'line': b'writing sensor.egg-info/PKG-INFO\n'}
+[2.679124] (sensor) StdoutLine: {'line': b'writing dependency_links to sensor.egg-info/dependency_links.txt\n'}
+[2.679255] (sensor) StdoutLine: {'line': b'writing top-level names to sensor.egg-info/top_level.txt\n'}
+[2.679339] (sensor) StdoutLine: {'line': b"writing manifest file 'sensor.egg-info/SOURCES.txt'\n"}
+[2.703493] (-) TimerEvent: {}
+[2.708916] (sensor) StdoutLine: {'line': b"reading manifest file 'sensor.egg-info/SOURCES.txt'\n"}
+[2.709217] (sensor) StdoutLine: {'line': b"writing manifest file 'sensor.egg-info/SOURCES.txt'\n"}
+[2.731586] (sensor) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_sensor_egg\n'}
+[2.803677] (-) TimerEvent: {}
+[2.829345] (sensor) StdoutLine: {'line': b'[  8%] Built target sensor__cpp\n'}
+[2.841778] (sensor) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/sensor__rosidl_generator_c.dir/rosidl_generator_c/sensor/msg/detail/workload_msg__description.c.o\n'}
+[2.842000] (sensor) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/sensor__rosidl_generator_c.dir/rosidl_generator_c/sensor/msg/detail/workload_msg__functions.c.o\n'}
+[2.842101] (sensor) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/sensor__rosidl_generator_c.dir/rosidl_generator_c/sensor/msg/detail/workload_msg__type_support.c.o\n'}
+[2.874721] (sensor) StdoutLine: {'line': b'[ 19%] Linking C shared library libsensor__rosidl_generator_c.so\n'}
+[2.902518] (sensor) StdoutLine: {'line': b'[ 19%] Built target sensor__rosidl_generator_c\n'}
+[2.903797] (-) TimerEvent: {}
+[2.912306] (sensor) StdoutLine: {'line': b'[ 27%] Generating C++ type support dispatch for ROS interfaces\n'}
+[2.912542] (sensor) StdoutLine: {'line': b'[ 27%] Generating C type support for eProsima Fast-RTPS\n'}
+[2.912736] (sensor) StdoutLine: {'line': b'[ 27%] Generating C introspection for ROS interfaces\n'}
+[2.912790] (sensor) StdoutLine: {'line': b'[ 36%] Generating C type support dispatch for ROS interfaces\n'}
+[2.912832] (sensor) StdoutLine: {'line': b'[ 36%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[2.912868] (sensor) StdoutLine: {'line': b'[ 36%] Generating C++ introspection for ROS interfaces\n'}
+[3.003884] (-) TimerEvent: {}
+[3.070487] (sensor) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/sensor__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor/msg/workload_msg__type_support.cpp.o\n'}
+[3.076619] (sensor) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/sensor__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor/msg/workload_msg__type_support.cpp.o\n'}
+[3.085269] (sensor) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/sensor__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor/msg/detail/workload_msg__type_support.cpp.o\n'}
+[3.086268] (sensor) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/sensor__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor/msg/detail/workload_msg__type_support.c.o\n'}
+[3.096411] (sensor) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/sensor__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor/msg/detail/dds_fastrtps/workload_msg__type_support.cpp.o\n'}
+[3.098118] (sensor) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/sensor__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor/msg/detail/workload_msg__type_support_c.cpp.o\n'}
+[3.100085] (sensor) StdoutLine: {'line': b'[ 55%] Linking CXX shared library libsensor__rosidl_typesupport_c.so\n'}
+[3.103991] (-) TimerEvent: {}
+[3.112653] (sensor) StdoutLine: {'line': b'[ 58%] Linking C shared library libsensor__rosidl_typesupport_introspection_c.so\n'}
+[3.130977] (sensor) StdoutLine: {'line': b'[ 58%] Built target sensor__rosidl_typesupport_c\n'}
+[3.135244] (sensor) StdoutLine: {'line': b'[ 58%] Built target sensor__rosidl_typesupport_introspection_c\n'}
+[3.204089] (-) TimerEvent: {}
+[3.263171] (sensor) StdoutLine: {'line': b'[ 61%] Linking CXX shared library libsensor__rosidl_typesupport_cpp.so\n'}
+[3.294152] (sensor) StdoutLine: {'line': b'[ 61%] Built target sensor__rosidl_typesupport_cpp\n'}
+[3.296609] (sensor) StdoutLine: {'line': b'[ 63%] Linking CXX shared library libsensor__rosidl_typesupport_introspection_cpp.so\n'}
+[3.304190] (-) TimerEvent: {}
+[3.310267] (sensor) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/sensor_source.dir/src/sensor_source.cpp.o\n'}
+[3.349474] (sensor) StdoutLine: {'line': b'[ 66%] Built target sensor__rosidl_typesupport_introspection_cpp\n'}
+[3.404295] (-) TimerEvent: {}
+[3.418977] (sensor) StdoutLine: {'line': b'[ 69%] Linking CXX shared library libsensor__rosidl_typesupport_fastrtps_c.so\n'}
+[3.437876] (sensor) StdoutLine: {'line': b'[ 72%] Linking CXX shared library libsensor__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.474447] (sensor) StdoutLine: {'line': b'[ 72%] Built target sensor__rosidl_typesupport_fastrtps_c\n'}
+[3.490973] (sensor) StdoutLine: {'line': b'[ 72%] Built target sensor__rosidl_typesupport_fastrtps_cpp\n'}
+[3.504420] (-) TimerEvent: {}
+[3.505938] (sensor) StdoutLine: {'line': b'[ 72%] Built target sensor\n'}
+[3.522191] (sensor) StdoutLine: {'line': b'[ 75%] Generating Python code for ROS interfaces\n'}
+[3.604546] (-) TimerEvent: {}
+[3.704814] (-) TimerEvent: {}
+[3.717111] (sensor) StdoutLine: {'line': b'[ 75%] Built target sensor__py\n'}
+[3.737571] (sensor) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/sensor__rosidl_generator_py.dir/rosidl_generator_py/sensor/msg/_workload_msg_s.c.o\n'}
+[3.805178] (-) TimerEvent: {}
+[3.832652] (sensor) StdoutLine: {'line': b'[ 80%] Linking C shared library libsensor__rosidl_generator_py.so\n'}
+[3.861440] (sensor) StdoutLine: {'line': b'[ 80%] Built target sensor__rosidl_generator_py\n'}
+[3.876286] (sensor) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/sensor_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sensor/_sensor_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[3.876502] (sensor) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/sensor_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sensor/_sensor_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[3.876555] (sensor) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/sensor_s__rosidl_typesupport_c.dir/rosidl_generator_py/sensor/_sensor_s.ep.rosidl_typesupport_c.c.o\n'}
+[3.905231] (-) TimerEvent: {}
+[3.936484] (sensor) StdoutLine: {'line': b'[ 97%] Linking C shared module rosidl_generator_py/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.936689] (sensor) StdoutLine: {'line': b'[ 97%] Linking C shared module rosidl_generator_py/sensor/sensor_s__rosidl_typesupport_introspection_c.so\n'}
+[3.936810] (sensor) StdoutLine: {'line': b'[ 97%] Linking C shared module rosidl_generator_py/sensor/sensor_s__rosidl_typesupport_c.so\n'}
+[3.956835] (sensor) StdoutLine: {'line': b'[ 97%] Built target sensor_s__rosidl_typesupport_fastrtps_c\n'}
+[3.957047] (sensor) StdoutLine: {'line': b'[ 97%] Built target sensor_s__rosidl_typesupport_introspection_c\n'}
+[3.959498] (sensor) StdoutLine: {'line': b'[ 97%] Built target sensor_s__rosidl_typesupport_c\n'}
+[4.005353] (-) TimerEvent: {}
+[4.105531] (-) TimerEvent: {}
+[4.205700] (-) TimerEvent: {}
+[4.305899] (-) TimerEvent: {}
+[4.406154] (-) TimerEvent: {}
+[4.506365] (-) TimerEvent: {}
+[4.606569] (-) TimerEvent: {}
+[4.706830] (-) TimerEvent: {}
+[4.806991] (-) TimerEvent: {}
+[4.907244] (-) TimerEvent: {}
+[5.007536] (-) TimerEvent: {}
+[5.107867] (-) TimerEvent: {}
+[5.208241] (-) TimerEvent: {}
+[5.308475] (-) TimerEvent: {}
+[5.408639] (-) TimerEvent: {}
+[5.508855] (-) TimerEvent: {}
+[5.609067] (-) TimerEvent: {}
+[5.709262] (-) TimerEvent: {}
+[5.809461] (-) TimerEvent: {}
+[5.909634] (-) TimerEvent: {}
+[6.009828] (-) TimerEvent: {}
+[6.109992] (-) TimerEvent: {}
+[6.210149] (-) TimerEvent: {}
+[6.273960] (sensor) StdoutLine: {'line': b'[100%] Linking CXX executable sensor_source\n'}
+[6.310282] (-) TimerEvent: {}
+[6.383085] (sensor) StdoutLine: {'line': b'[100%] Built target sensor_source\n'}
+[6.391396] (sensor) CommandEnded: {'returncode': 0}
+[6.391950] (sensor) JobProgress: {'identifier': 'sensor', 'progress': 'install'}
+[6.398368] (sensor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor'], 'cwd': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/cnrlab', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'cnrlab', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cnrlab', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-0e79258d-1.11-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2348', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2846', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3706', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cnrlab', 'JOURNAL_STREAM': '9:26940', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'cnrlab', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/cnrlab/.codex/tmp/arg0/codex-arg01qMJ2Q:/opt/ros/jazzy/bin:/home/cnrlab/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cnrlab/.vscode/extensions/openai.chatgpt-26.5318.11754-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/cnrlab:@/tmp/.ICE-unix/2797,unix/cnrlab:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '33c07fac45b4463ab25bb6a415ebafb0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019d0fa2-6d15-7cd3-b4ef-8184b0945c71', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensor', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/cnrlab/.config/Code/CachedData/07ff9d6178ede9a1bd12ad3399074d726ebe6e43', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'VSCODE_PID': '3706'}), 'shell': False}
+[6.405878] (sensor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.406250] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/ament_index/resource_index/rosidl_interfaces/sensor\n'}
+[6.406473] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/msg/WorkloadMsg.json\n'}
+[6.406717] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor\n'}
+[6.407025] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg\n'}
+[6.407200] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail\n'}
+[6.407364] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__struct.h\n'}
+[6.407490] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__description.c\n'}
+[6.407573] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.c\n'}
+[6.407724] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__functions.c\n'}
+[6.407898] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.h\n'}
+[6.408047] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__functions.h\n'}
+[6.408189] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.408278] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/workload_msg.h\n'}
+[6.408432] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/library_path.sh\n'}
+[6.408563] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/library_path.dsv\n'}
+[6.408694] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_generator_c.so\n'}
+[6.408836] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_generator_c.so" to ""\n'}
+[6.408937] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor\n'}
+[6.409014] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg\n'}
+[6.409130] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail\n'}
+[6.409239] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.409335] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.409438] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_c.so\n'}
+[6.409519] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.409697] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor\n'}
+[6.409812] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg\n'}
+[6.409896] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail\n'}
+[6.409998] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.hpp\n'}
+[6.410099] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__traits.hpp\n'}
+[6.410213] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__builder.hpp\n'}
+[6.410309] (-) TimerEvent: {}
+[6.410326] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__struct.hpp\n'}
+[6.410407] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.410484] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/workload_msg.hpp\n'}
+[6.410579] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor\n'}
+[6.410653] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg\n'}
+[6.410754] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail\n'}
+[6.410871] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.411000] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/dds_fastrtps\n'}
+[6.411152] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.411276] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.411403] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.411481] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor\n'}
+[6.411560] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg\n'}
+[6.411634] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail\n'}
+[6.411709] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.c\n'}
+[6.411795] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_introspection_c.h\n'}
+[6.411871] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.411947] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_introspection_c.so\n'}
+[6.412068] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.412135] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_c.so\n'}
+[6.412176] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_c.so" to ""\n'}
+[6.412213] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor\n'}
+[6.412249] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg\n'}
+[6.412284] (sensor) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail\n'}
+[6.412320] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__type_support.cpp\n'}
+[6.412354] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/include/sensor/sensor/msg/detail/workload_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.412389] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_introspection_cpp.so\n'}
+[6.412424] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.412459] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_cpp.so\n'}
+[6.412493] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_typesupport_cpp.so" to ""\n'}
+[6.412526] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/pythonpath.sh\n'}
+[6.412561] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/pythonpath.dsv\n'}
+[6.412596] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info\n'}
+[6.412631] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[6.412667] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[6.412701] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[6.412738] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[6.412783] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor\n'}
+[6.412818] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/_sensor_s.ep.rosidl_typesupport_c.c\n'}
+[6.412853] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/_sensor_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.412891] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_introspection_c.so\n'}
+[6.412928] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/msg\n'}
+[6.412961] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/msg/_workload_msg_s.c\n'}
+[6.412995] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/msg/_workload_msg.py\n'}
+[6.413031] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/msg/__init__.py\n'}
+[6.413066] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_c.so\n'}
+[6.413103] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/_sensor_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.413139] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.413174] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/__init__.py\n'}
+[6.437496] (sensor) StdoutLine: {'line': b"Listing '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor'...\n"}
+[6.437632] (sensor) StdoutLine: {'line': b"Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/__init__.py'...\n"}
+[6.437686] (sensor) StdoutLine: {'line': b"Listing '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/msg'...\n"}
+[6.437729] (sensor) StdoutLine: {'line': b"Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/msg/__init__.py'...\n"}
+[6.437772] (sensor) StdoutLine: {'line': b"Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/msg/_workload_msg.py'...\n"}
+[6.441999] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.442121] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.442232] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_introspection_c.so\n'}
+[6.442376] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.442474] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_c.so\n'}
+[6.442625] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/python3.12/site-packages/sensor/sensor_s__rosidl_typesupport_c.so" to ""\n'}
+[6.442715] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_generator_py.so\n'}
+[6.442831] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/libsensor__rosidl_generator_py.so" to ""\n'}
+[6.442889] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/msg/WorkloadMsg.idl\n'}
+[6.442945] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/msg/WorkloadMsg.msg\n'}
+[6.443017] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/sensor/sensor_source\n'}
+[6.443651] (sensor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/lib/sensor/sensor_source" to ""\n'}
+[6.443716] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/config\n'}
+[6.443817] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/config/workload_config.yaml\n'}
+[6.443884] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/ament_index/resource_index/package_run_dependencies/sensor\n'}
+[6.443940] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/ament_index/resource_index/parent_prefix_path/sensor\n'}
+[6.443993] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/ament_prefix_path.sh\n'}
+[6.444045] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/ament_prefix_path.dsv\n'}
+[6.444096] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/path.sh\n'}
+[6.444146] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/environment/path.dsv\n'}
+[6.444229] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/local_setup.bash\n'}
+[6.444267] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/local_setup.sh\n'}
+[6.444336] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/local_setup.zsh\n'}
+[6.444374] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/local_setup.dsv\n'}
+[6.444467] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/package.dsv\n'}
+[6.444505] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/ament_index/resource_index/packages/sensor\n'}
+[6.444606] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_cExport.cmake\n'}
+[6.444800] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.444843] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.444879] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.444926] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_cppExport.cmake\n'}
+[6.445115] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.445156] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.445193] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.445230] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.445266] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cExport.cmake\n'}
+[6.445303] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.445422] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.445460] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.445498] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cppExport.cmake\n'}
+[6.445536] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensor__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.445572] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_pyExport.cmake\n'}
+[6.445608] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/export_sensor__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.445757] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/rosidl_cmake-extras.cmake\n'}
+[6.445892] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.445963] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.446070] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.446121] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.446159] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.446193] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.446241] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensorConfig.cmake\n'}
+[6.446275] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/cmake/sensorConfig-version.cmake\n'}
+[6.446309] (sensor) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/sensor/share/sensor/package.xml\n'}
+[6.447239] (sensor) CommandEnded: {'returncode': 0}
+[6.460155] (sensor) JobEnded: {'identifier': 'sensor', 'rc': 0}
+[6.460398] (-) EventReactorShutdown: {}

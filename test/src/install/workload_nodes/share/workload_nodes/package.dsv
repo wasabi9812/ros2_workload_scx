@@ -1,0 +1,10 @@
+source;share/workload_nodes/hook/cmake_prefix_path.dsv
+source;share/workload_nodes/hook/cmake_prefix_path.sh
+source;share/workload_nodes/hook/ld_library_path_lib.dsv
+source;share/workload_nodes/hook/ld_library_path_lib.sh
+source;share/workload_nodes/hook/pythonpath.dsv
+source;share/workload_nodes/hook/pythonpath.sh
+source;share/workload_nodes/local_setup.bash
+source;share/workload_nodes/local_setup.dsv
+source;share/workload_nodes/local_setup.sh
+source;share/workload_nodes/local_setup.zsh

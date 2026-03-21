@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000439] (workload_nodes) JobQueued: {'identifier': 'workload_nodes', 'dependencies': OrderedDict()}
+[0.000516] (workload_nodes) JobStarted: {'identifier': 'workload_nodes'}
+[0.005824] (workload_nodes) JobProgress: {'identifier': 'workload_nodes', 'progress': 'cmake'}
+[0.006167] (workload_nodes) Command: {'cmd': ['/usr/bin/cmake', '/home/cnrlab/Desktop/scx_basic/workload/test/src/workload_nodes', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes'], 'cwd': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cnrlab', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cnrlab', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2348', 'SYSTEMD_EXEC_PID': '2846', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3706', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cnrlab', 'JOURNAL_STREAM': '9:26940', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cnrlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/cnrlab/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cnrlab:@/tmp/.ICE-unix/2797,unix/cnrlab:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '33c07fac45b4463ab25bb6a415ebafb0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4e5af628d1.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.051814] (workload_nodes) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.091735] (workload_nodes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099795] (-) TimerEvent: {}
+[0.104680] (workload_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.174334] (workload_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.180337] (workload_nodes) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.180471] (workload_nodes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.180837] (workload_nodes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.188150] (workload_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199919] (-) TimerEvent: {}
+[0.269319] (workload_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.276617] (workload_nodes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.276879] (workload_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.277201] (workload_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.278634] (workload_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300013] (-) TimerEvent: {}
+[0.398284] (workload_nodes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.400106] (-) TimerEvent: {}
+[0.485623] (workload_nodes) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500286] (-) TimerEvent: {}
+[0.509747] (workload_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.519183] (workload_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.528927] (workload_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.540308] (workload_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.588624] (workload_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.590110] (workload_nodes) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600531] (-) TimerEvent: {}
+[0.648692] (workload_nodes) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.662753] (workload_nodes) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.683354] (workload_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700664] (-) TimerEvent: {}
+[0.742076] (workload_nodes) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.749861] (workload_nodes) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.800773] (-) TimerEvent: {}
+[0.901066] (-) TimerEvent: {}
+[1.001361] (-) TimerEvent: {}
+[1.101671] (-) TimerEvent: {}
+[1.199073] (workload_nodes) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.201729] (-) TimerEvent: {}
+[1.301942] (-) TimerEvent: {}
+[1.402281] (-) TimerEvent: {}
+[1.502539] (-) TimerEvent: {}
+[1.602769] (-) TimerEvent: {}
+[1.703025] (-) TimerEvent: {}
+[1.792735] (workload_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.803144] (-) TimerEvent: {}
+[1.903380] (-) TimerEvent: {}
+[2.003728] (-) TimerEvent: {}
+[2.023964] (workload_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.025528] (workload_nodes) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.103866] (-) TimerEvent: {}
+[2.136877] (workload_nodes) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.203959] (-) TimerEvent: {}
+[2.304279] (-) TimerEvent: {}
+[2.404507] (-) TimerEvent: {}
+[2.478801] (workload_nodes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.504637] (-) TimerEvent: {}
+[2.509238] (workload_nodes) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.535111] (workload_nodes) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.537010] (workload_nodes) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[2.537180] (workload_nodes) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[2.537267] (workload_nodes) StderrLine: {'line': b'\n'}
+[2.537347] (workload_nodes) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[2.537434] (workload_nodes) StderrLine: {'line': b'\n'}
+[2.537510] (workload_nodes) StderrLine: {'line': b'\x1b[0m\n'}
+[2.543699] (workload_nodes) StdoutLine: {'line': b'-- Build files have been written to: /home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes\n'}
+[2.554500] (workload_nodes) CommandEnded: {'returncode': 0}
+[2.555569] (workload_nodes) JobProgress: {'identifier': 'workload_nodes', 'progress': 'build'}
+[2.555669] (workload_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes', '--', '-j20', '-l20'], 'cwd': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cnrlab', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cnrlab', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2348', 'SYSTEMD_EXEC_PID': '2846', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3706', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cnrlab', 'JOURNAL_STREAM': '9:26940', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cnrlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/cnrlab/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cnrlab:@/tmp/.ICE-unix/2797,unix/cnrlab:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '33c07fac45b4463ab25bb6a415ebafb0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4e5af628d1.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.600141] (workload_nodes) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.604998] (-) TimerEvent: {}
+[2.609040] (workload_nodes) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_workload_nodes\n'}
+[2.705228] (-) TimerEvent: {}
+[2.744752] (workload_nodes) StdoutLine: {'line': b'[  2%] Built target workload_nodes__rosidl_generator_type_description\n'}
+[2.752810] (workload_nodes) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.754261] (workload_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[2.755016] (workload_nodes) StdoutLine: {'line': b'creating workload_nodes.egg-info\n'}
+[2.761201] (workload_nodes) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.765272] (workload_nodes) StdoutLine: {'line': b'writing workload_nodes.egg-info/PKG-INFO\n'}
+[2.765470] (workload_nodes) StdoutLine: {'line': b'writing dependency_links to workload_nodes.egg-info/dependency_links.txt\n'}
+[2.765578] (workload_nodes) StdoutLine: {'line': b'writing top-level names to workload_nodes.egg-info/top_level.txt\n'}
+[2.765656] (workload_nodes) StdoutLine: {'line': b"writing manifest file 'workload_nodes.egg-info/SOURCES.txt'\n"}
+[2.794675] (workload_nodes) StdoutLine: {'line': b"reading manifest file 'workload_nodes.egg-info/SOURCES.txt'\n"}
+[2.795007] (workload_nodes) StdoutLine: {'line': b"writing manifest file 'workload_nodes.egg-info/SOURCES.txt'\n"}
+[2.805377] (-) TimerEvent: {}
+[2.822528] (workload_nodes) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_workload_nodes_egg\n'}
+[2.905565] (-) TimerEvent: {}
+[2.929836] (workload_nodes) StdoutLine: {'line': b'[  8%] Built target workload_nodes__cpp\n'}
+[2.952063] (workload_nodes) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/workload_nodes__rosidl_generator_c.dir/rosidl_generator_c/workload_nodes/msg/detail/workload_msg__description.c.o\x1b[0m\n'}
+[2.952287] (workload_nodes) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/workload_nodes__rosidl_generator_c.dir/rosidl_generator_c/workload_nodes/msg/detail/workload_msg__functions.c.o\x1b[0m\n'}
+[2.952375] (workload_nodes) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/workload_nodes__rosidl_generator_c.dir/rosidl_generator_c/workload_nodes/msg/detail/workload_msg__type_support.c.o\x1b[0m\n'}
+[2.989943] (workload_nodes) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libworkload_nodes__rosidl_generator_c.so\x1b[0m\n'}
+[3.005696] (-) TimerEvent: {}
+[3.024590] (workload_nodes) StdoutLine: {'line': b'[ 19%] Built target workload_nodes__rosidl_generator_c\n'}
+[3.033815] (workload_nodes) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.034140] (workload_nodes) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.034265] (workload_nodes) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.034357] (workload_nodes) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.035164] (workload_nodes) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.035350] (workload_nodes) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.105785] (-) TimerEvent: {}
+[3.206107] (-) TimerEvent: {}
+[3.224750] (workload_nodes) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/workload_nodes__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/workload_nodes/msg/detail/workload_msg__type_support.c.o\x1b[0m\n'}
+[3.225833] (workload_nodes) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/workload_nodes__rosidl_typesupport_c.dir/rosidl_typesupport_c/workload_nodes/msg/workload_msg__type_support.cpp.o\x1b[0m\n'}
+[3.235804] (workload_nodes) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/workload_nodes__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/workload_nodes/msg/detail/dds_fastrtps/workload_msg__type_support.cpp.o\x1b[0m\n'}
+[3.241194] (workload_nodes) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/workload_nodes__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/workload_nodes/msg/detail/workload_msg__type_support.cpp.o\x1b[0m\n'}
+[3.241490] (workload_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/workload_nodes__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/workload_nodes/msg/detail/workload_msg__type_support_c.cpp.o\x1b[0m\n'}
+[3.255675] (workload_nodes) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libworkload_nodes__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.257209] (workload_nodes) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libworkload_nodes__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.270429] (workload_nodes) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/workload_nodes__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/workload_nodes/msg/workload_msg__type_support.cpp.o\x1b[0m\n'}
+[3.281658] (workload_nodes) StdoutLine: {'line': b'[ 58%] Built target workload_nodes__rosidl_typesupport_introspection_c\n'}
+[3.287502] (workload_nodes) StdoutLine: {'line': b'[ 58%] Built target workload_nodes__rosidl_typesupport_c\n'}
+[3.306285] (-) TimerEvent: {}
+[3.406635] (-) TimerEvent: {}
+[3.485976] (workload_nodes) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libworkload_nodes__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.496904] (workload_nodes) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libworkload_nodes__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.506763] (-) TimerEvent: {}
+[3.534052] (workload_nodes) StdoutLine: {'line': b'[ 63%] Built target workload_nodes__rosidl_typesupport_cpp\n'}
+[3.548684] (workload_nodes) StdoutLine: {'line': b'[ 63%] Built target workload_nodes__rosidl_typesupport_introspection_cpp\n'}
+[3.553719] (workload_nodes) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/sensor_source.dir/src/sensor_source.cpp.o\x1b[0m\n'}
+[3.575468] (workload_nodes) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libworkload_nodes__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.606939] (-) TimerEvent: {}
+[3.608180] (workload_nodes) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libworkload_nodes__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.641466] (workload_nodes) StdoutLine: {'line': b'[ 72%] Built target workload_nodes__rosidl_typesupport_fastrtps_c\n'}
+[3.672954] (workload_nodes) StdoutLine: {'line': b'[ 72%] Built target workload_nodes__rosidl_typesupport_fastrtps_cpp\n'}
+[3.688542] (workload_nodes) StdoutLine: {'line': b'[ 72%] Built target workload_nodes\n'}
+[3.704370] (workload_nodes) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.707049] (-) TimerEvent: {}
+[3.807339] (-) TimerEvent: {}
+[3.901244] (workload_nodes) StdoutLine: {'line': b'[ 75%] Built target workload_nodes__py\n'}
+[3.907510] (-) TimerEvent: {}
+[3.917219] (workload_nodes) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/workload_nodes__rosidl_generator_py.dir/rosidl_generator_py/workload_nodes/msg/_workload_msg_s.c.o\x1b[0m\n'}
+[4.007578] (workload_nodes) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library libworkload_nodes__rosidl_generator_py.so\x1b[0m\n'}
+[4.007858] (-) TimerEvent: {}
+[4.042724] (workload_nodes) StdoutLine: {'line': b'[ 80%] Built target workload_nodes__rosidl_generator_py\n'}
+[4.058323] (workload_nodes) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/workload_nodes_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/workload_nodes/_workload_nodes_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.059121] (workload_nodes) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/workload_nodes_s__rosidl_typesupport_c.dir/rosidl_generator_py/workload_nodes/_workload_nodes_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.059429] (workload_nodes) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/workload_nodes_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/workload_nodes/_workload_nodes_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.108014] (-) TimerEvent: {}
+[4.125320] (workload_nodes) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/workload_nodes/workload_nodes_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.125535] (workload_nodes) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/workload_nodes/workload_nodes_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.125633] (workload_nodes) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/workload_nodes/workload_nodes_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.150354] (workload_nodes) StdoutLine: {'line': b'[ 97%] Built target workload_nodes_s__rosidl_typesupport_fastrtps_c\n'}
+[4.150758] (workload_nodes) StdoutLine: {'line': b'[ 97%] Built target workload_nodes_s__rosidl_typesupport_introspection_c\n'}
+[4.150911] (workload_nodes) StdoutLine: {'line': b'[ 97%] Built target workload_nodes_s__rosidl_typesupport_c\n'}
+[4.208135] (-) TimerEvent: {}
+[4.308431] (-) TimerEvent: {}
+[4.408766] (-) TimerEvent: {}
+[4.509127] (-) TimerEvent: {}
+[4.609493] (-) TimerEvent: {}
+[4.709753] (-) TimerEvent: {}
+[4.810114] (-) TimerEvent: {}
+[4.910520] (-) TimerEvent: {}
+[5.010790] (-) TimerEvent: {}
+[5.111167] (-) TimerEvent: {}
+[5.211540] (-) TimerEvent: {}
+[5.311838] (-) TimerEvent: {}
+[5.412132] (-) TimerEvent: {}
+[5.512494] (-) TimerEvent: {}
+[5.612822] (-) TimerEvent: {}
+[5.713200] (-) TimerEvent: {}
+[5.813477] (-) TimerEvent: {}
+[5.913834] (-) TimerEvent: {}
+[6.014119] (-) TimerEvent: {}
+[6.114390] (-) TimerEvent: {}
+[6.214662] (-) TimerEvent: {}
+[6.315020] (-) TimerEvent: {}
+[6.415324] (-) TimerEvent: {}
+[6.515614] (-) TimerEvent: {}
+[6.615873] (-) TimerEvent: {}
+[6.630139] (workload_nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_source\x1b[0m\n'}
+[6.716012] (-) TimerEvent: {}
+[6.753212] (workload_nodes) StdoutLine: {'line': b'[100%] Built target sensor_source\n'}
+[6.761688] (workload_nodes) CommandEnded: {'returncode': 0}
+[6.762293] (workload_nodes) JobProgress: {'identifier': 'workload_nodes', 'progress': 'install'}
+[6.770075] (workload_nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes'], 'cwd': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cnrlab', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cnrlab', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2348', 'SYSTEMD_EXEC_PID': '2846', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3706', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cnrlab', 'JOURNAL_STREAM': '9:26940', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cnrlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/cnrlab/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cnrlab:@/tmp/.ICE-unix/2797,unix/cnrlab:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '33c07fac45b4463ab25bb6a415ebafb0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4e5af628d1.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cnrlab/Desktop/scx_basic/workload/test/src/build/workload_nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.776740] (workload_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.776902] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/ament_index/resource_index/rosidl_interfaces/workload_nodes\n'}
+[6.776957] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/msg/WorkloadMsg.json\n'}
+[6.777274] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes\n'}
+[6.777334] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg\n'}
+[6.777383] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail\n'}
+[6.777429] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__struct.h\n'}
+[6.777466] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__description.c\n'}
+[6.777504] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__type_support.c\n'}
+[6.777540] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__functions.c\n'}
+[6.777575] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__type_support.h\n'}
+[6.777609] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__functions.h\n'}
+[6.777670] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.777708] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/workload_msg.h\n'}
+[6.777746] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/library_path.sh\n'}
+[6.777788] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/library_path.dsv\n'}
+[6.777862] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_generator_c.so\n'}
+[6.777958] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_generator_c.so" to ""\n'}
+[6.778009] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes\n'}
+[6.778059] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg\n'}
+[6.778113] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail\n'}
+[6.778162] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.778200] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.778266] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_fastrtps_c.so\n'}
+[6.778329] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.778400] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes\n'}
+[6.778444] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg\n'}
+[6.778482] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail\n'}
+[6.778540] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__type_support.hpp\n'}
+[6.778604] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__traits.hpp\n'}
+[6.778643] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__builder.hpp\n'}
+[6.778679] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__struct.hpp\n'}
+[6.778714] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.778768] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/workload_msg.hpp\n'}
+[6.778846] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes\n'}
+[6.778889] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg\n'}
+[6.778924] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail\n'}
+[6.778961] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.778994] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/dds_fastrtps\n'}
+[6.779031] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.779104] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.779177] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.779218] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes\n'}
+[6.779254] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg\n'}
+[6.779290] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail\n'}
+[6.779324] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__type_support.c\n'}
+[6.779362] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__rosidl_typesupport_introspection_c.h\n'}
+[6.779418] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.779480] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_introspection_c.so\n'}
+[6.779516] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.779551] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_c.so\n'}
+[6.779599] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_c.so" to ""\n'}
+[6.779666] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes\n'}
+[6.779713] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg\n'}
+[6.779746] (workload_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail\n'}
+[6.779783] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__type_support.cpp\n'}
+[6.779819] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/include/workload_nodes/workload_nodes/msg/detail/workload_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.779854] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_introspection_cpp.so\n'}
+[6.779902] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.779951] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_cpp.so\n'}
+[6.780014] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_typesupport_cpp.so" to ""\n'}
+[6.780065] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/pythonpath.sh\n'}
+[6.780111] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/pythonpath.dsv\n'}
+[6.780162] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes-0.0.0-py3.12.egg-info\n'}
+[6.780216] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[6.780508] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[6.780753] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[6.780931] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[6.781123] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes\n'}
+[6.781222] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_c.so\n'}
+[6.781332] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.781452] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/_workload_nodes_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.781538] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/msg\n'}
+[6.781638] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/msg/_workload_msg_s.c\n'}
+[6.781732] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/msg/_workload_msg.py\n'}
+[6.781828] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/msg/__init__.py\n'}
+[6.781921] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_introspection_c.so\n'}
+[6.782014] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/_workload_nodes_s.ep.rosidl_typesupport_c.c\n'}
+[6.782104] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/_workload_nodes_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.782197] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/__init__.py\n'}
+[6.811392] (workload_nodes) StdoutLine: {'line': b"Listing '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes'...\n"}
+[6.811561] (workload_nodes) StdoutLine: {'line': b"Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/__init__.py'...\n"}
+[6.811611] (workload_nodes) StdoutLine: {'line': b"Listing '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/msg'...\n"}
+[6.811651] (workload_nodes) StdoutLine: {'line': b"Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/msg/__init__.py'...\n"}
+[6.811690] (workload_nodes) StdoutLine: {'line': b"Compiling '/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/msg/_workload_msg.py'...\n"}
+[6.816122] (-) TimerEvent: {}
+[6.816282] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.816433] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.816534] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_introspection_c.so\n'}
+[6.816626] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.816686] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_c.so\n'}
+[6.816739] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/python3.12/site-packages/workload_nodes/workload_nodes_s__rosidl_typesupport_c.so" to ""\n'}
+[6.816791] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_generator_py.so\n'}
+[6.816925] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/libworkload_nodes__rosidl_generator_py.so" to ""\n'}
+[6.816975] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/msg/WorkloadMsg.idl\n'}
+[6.817026] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/msg/WorkloadMsg.msg\n'}
+[6.817106] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/workload_nodes/sensor_source\n'}
+[6.818393] (workload_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/lib/workload_nodes/sensor_source" to ""\n'}
+[6.818535] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/config\n'}
+[6.818578] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/config/workload_config.yaml\n'}
+[6.818647] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/ament_index/resource_index/package_run_dependencies/workload_nodes\n'}
+[6.818829] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/ament_index/resource_index/parent_prefix_path/workload_nodes\n'}
+[6.818936] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/ament_prefix_path.sh\n'}
+[6.819051] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/ament_prefix_path.dsv\n'}
+[6.819171] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/path.sh\n'}
+[6.819275] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/environment/path.dsv\n'}
+[6.819759] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/local_setup.bash\n'}
+[6.819863] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/local_setup.sh\n'}
+[6.819974] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/local_setup.zsh\n'}
+[6.820084] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/local_setup.dsv\n'}
+[6.820186] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/package.dsv\n'}
+[6.820381] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/ament_index/resource_index/packages/workload_nodes\n'}
+[6.820560] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_generator_cExport.cmake\n'}
+[6.820724] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.820836] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.820934] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.821040] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_generator_cppExport.cmake\n'}
+[6.821191] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.821307] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.821434] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.821558] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.821680] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_cExport.cmake\n'}
+[6.821815] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.821953] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.822061] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.822186] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_cppExport.cmake\n'}
+[6.822308] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodes__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.822462] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_generator_pyExport.cmake\n'}
+[6.822690] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/export_workload_nodes__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.822802] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/rosidl_cmake-extras.cmake\n'}
+[6.822921] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.823052] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.823171] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.823306] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.823405] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.823525] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.823630] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodesConfig.cmake\n'}
+[6.823724] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/cmake/workload_nodesConfig-version.cmake\n'}
+[6.823809] (workload_nodes) StdoutLine: {'line': b'-- Installing: /home/cnrlab/Desktop/scx_basic/workload/test/src/install/workload_nodes/share/workload_nodes/package.xml\n'}
+[6.825418] (workload_nodes) CommandEnded: {'returncode': 0}
+[6.839853] (workload_nodes) JobEnded: {'identifier': 'workload_nodes', 'rc': 0}
+[6.840615] (-) EventReactorShutdown: {}

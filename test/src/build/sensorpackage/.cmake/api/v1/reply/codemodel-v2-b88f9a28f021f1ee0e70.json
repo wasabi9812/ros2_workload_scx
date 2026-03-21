@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-196e55f0797f4d8aab7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "sensorpackage__py",
+					"jsonFile" : "directory-sensorpackage__py-5c2f8bbb34b810e1cd43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensorpackage/sensorpackage__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sensorpackage",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sensorpackage_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sensorpackage_egg-b50b61505a8641eb3d00.json",
+					"name" : "ament_cmake_python_build_sensorpackage_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sensorpackage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sensorpackage-72c9c0c634af0ee7cf15.json",
+					"name" : "ament_cmake_python_copy_sensorpackage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_source::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_source-cef6342762b89de25ba6.json",
+					"name" : "sensor_source",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage-8bb47dcf243a070f311e.json",
+					"name" : "sensorpackage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__cpp-ccba22786db7b0365438.json",
+					"name" : "sensorpackage__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sensorpackage__py::@5fa2dd116cc3cd1e29bc",
+					"jsonFile" : "target-sensorpackage__py-b14bea6dbba4707127a2.json",
+					"name" : "sensorpackage__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_generator_c-7867640ea69a8ce8cca5.json",
+					"name" : "sensorpackage__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_generator_py-4ce57708783da026943b.json",
+					"name" : "sensorpackage__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_generator_type_description-b0f029b1b9ad707714ea.json",
+					"name" : "sensorpackage__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_typesupport_c-fe6ab7f6c0d1ce51414a.json",
+					"name" : "sensorpackage__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_typesupport_cpp-39804e8f21f055a87ea6.json",
+					"name" : "sensorpackage__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_typesupport_fastrtps_c-aaaf129804e56c289d51.json",
+					"name" : "sensorpackage__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_typesupport_fastrtps_cpp-834c23b6cadcd4c7af0b.json",
+					"name" : "sensorpackage__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_typesupport_introspection_c-2daedf08a3d0b2d2dc97.json",
+					"name" : "sensorpackage__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage__rosidl_typesupport_introspection_cpp-79fac0c1d66d26e5be0d.json",
+					"name" : "sensorpackage__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage_s__rosidl_typesupport_c-f53c571419be988c95b5.json",
+					"name" : "sensorpackage_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage_s__rosidl_typesupport_fastrtps_c-e454f1bc222cfc56d2dd.json",
+					"name" : "sensorpackage_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage_s__rosidl_typesupport_introspection_c-f718fdeed688a0e7e8ff.json",
+					"name" : "sensorpackage_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensorpackage_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensorpackage_uninstall-38e9ae545143eb1800ab.json",
+					"name" : "sensorpackage_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6f61689b15d246e555ca.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cnrlab/Desktop/scx_basic/workload/test/src/build/sensorpackage",
+		"source" : "/home/cnrlab/Desktop/scx_basic/workload/test/src/sensorpackage"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

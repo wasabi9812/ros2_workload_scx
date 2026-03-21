@@ -1,0 +1,4 @@
+source;share/sensorpackage/environment/ament_prefix_path.sh
+source;share/sensorpackage/environment/library_path.sh
+source;share/sensorpackage/environment/path.sh
+source;share/sensorpackage/environment/pythonpath.sh

@@ -1,0 +1,11 @@
+sensor_source:
+  ros__parameters:
+    topic_name: /sensor_input
+    rate_hz: 10.0
+    profile: lidar_2d
+    encoding: range32
+    fill_mode: seq_pattern
+    width: 720
+    height: 1
+    element_size: 4
+    payload_bytes: 0
