@@ -1,4 +1,0 @@
-source;share/workload_nodes/local_setup.bash
-source;share/workload_nodes/local_setup.dsv
-source;share/workload_nodes/local_setup.sh
-source;share/workload_nodes/local_setup.zsh

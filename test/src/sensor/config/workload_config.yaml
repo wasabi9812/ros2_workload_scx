@@ -1,4 +1,4 @@
-sensor_source:
+n1:
   ros__parameters:
     topic_name: /sensor_input
     rate_hz: 10.0

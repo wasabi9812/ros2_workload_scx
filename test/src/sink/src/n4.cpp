@@ -1,4 +1,3 @@
-#include <algorithm>
 #include <cstddef>
 #include <cstdint>
 #include <functional>
@@ -10,24 +9,24 @@
 #include "rclcpp/rclcpp.hpp"
 #include "sensor/msg/workload_msg.hpp"
 
-class PreprocessNode : public rclcpp::Node
+class SinkNode : public rclcpp::Node
 {
 public:
-  PreprocessNode()
-  : Node("n2"), received_count_(0)
+  SinkNode()
+  : Node("n4"), received_count_(0), has_last_seq_(false), last_seq_(0)
   {
-    this->declare_parameter<std::string>("input_topic", "/sensor_input");
-    this->declare_parameter<std::string>("output_topic", "/preprocessed");
+    this->declare_parameter<std::string>("input_topic", "/planned");
     this->declare_parameter<int>("qos_depth", 10);
-    this->declare_parameter<std::string>("checksum_mode", "byte_sum");
     this->declare_parameter<bool>("verify_shape", true);
-    this->declare_parameter<int>("log_every_n", 100);
+    this->declare_parameter<bool>("verify_seq_gap", true);
+    this->declare_parameter<std::string>("checksum_mode", "byte_sum");
+    this->declare_parameter<int>("log_every_n", 50);
 
     input_topic_ = this->get_parameter("input_topic").as_string();
-    output_topic_ = this->get_parameter("output_topic").as_string();
     qos_depth_ = this->get_parameter("qos_depth").as_int();
-    checksum_mode_ = this->get_parameter("checksum_mode").as_string();
     verify_shape_ = this->get_parameter("verify_shape").as_bool();
+    verify_seq_gap_ = this->get_parameter("verify_seq_gap").as_bool();
+    checksum_mode_ = this->get_parameter("checksum_mode").as_string();
     log_every_n_ = this->get_parameter("log_every_n").as_int();
 
     if (qos_depth_ < 1) {
@@ -42,20 +41,19 @@ public:
       throw std::invalid_argument("checksum_mode must be 'byte_sum' or 'xor32'");
     }
 
-    publisher_ = this->create_publisher<sensor::msg::WorkloadMsg>(output_topic_, qos_depth_);
     subscription_ = this->create_subscription<sensor::msg::WorkloadMsg>(
       input_topic_,
       qos_depth_,
-      std::bind(&PreprocessNode::on_message, this, std::placeholders::_1));
+      std::bind(&SinkNode::on_message, this, std::placeholders::_1));
 
     RCLCPP_INFO(
       this->get_logger(),
-      "[n2] input=%s output=%s qos=%d checksum=%s verify_shape=%s log_every_n=%d",
+      "[n4] input=%s qos=%d verify_shape=%s verify_seq_gap=%s checksum=%s log_every_n=%d",
       input_topic_.c_str(),
-      output_topic_.c_str(),
       qos_depth_,
-      checksum_mode_.c_str(),
       verify_shape_ ? "true" : "false",
+      verify_seq_gap_ ? "true" : "false",
+      checksum_mode_.c_str(),
       log_every_n_);
   }
 
@@ -99,6 +97,14 @@ private:
   {
     ++received_count_;
 
+    if (verify_seq_gap_ && has_last_seq_ && msg->seq != last_seq_ + 1U) {
+      RCLCPP_WARN(
+        this->get_logger(),
+        "seq gap detected previous=%lu current=%lu",
+        last_seq_,
+        msg->seq);
+    }
+
     if (verify_shape_) {
       const auto expected_size = expected_payload_size(*msg);
       if (expected_size != msg->payload.size()) {
@@ -119,32 +125,33 @@ private:
     if (log_every_n_ > 0 && (received_count_ % static_cast<std::uint64_t>(log_every_n_) == 0U)) {
       RCLCPP_INFO(
         this->get_logger(),
-        "seq=%lu profile=%s payload=%zu checksum=%u",
+        "seq=%lu payload=%zu checksum=%u",
         msg->seq,
-        msg->profile.c_str(),
         msg->payload.size(),
         checksum);
     }
 
-    publisher_->publish(*msg);
+    has_last_seq_ = true;
+    last_seq_ = msg->seq;
   }
 
   std::string input_topic_;
-  std::string output_topic_;
-  std::string checksum_mode_;
   int qos_depth_;
   bool verify_shape_;
+  bool verify_seq_gap_;
+  std::string checksum_mode_;
   int log_every_n_;
   std::uint64_t received_count_;
+  bool has_last_seq_;
+  std::uint64_t last_seq_;
 
-  rclcpp::Publisher<WorkloadMsg>::SharedPtr publisher_;
   rclcpp::Subscription<WorkloadMsg>::SharedPtr subscription_;
 };
 
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<PreprocessNode>();
+  auto node = std::make_shared<SinkNode>();
   rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;

@@ -15,7 +15,7 @@ class SensorSource : public rclcpp::Node
 {
 public:
   SensorSource()
-  : Node("sensor_source"), seq_(0)
+  : Node("n1"), seq_(0)
   {
     this->declare_parameter<std::string>("topic_name", "/sensor_input");
     this->declare_parameter<double>("rate_hz", 50.0);
@@ -70,7 +70,7 @@ public:
 
     RCLCPP_INFO(
       this->get_logger(),
-      "[sensor_source] topic=%s rate=%.2fHz profile=%s encoding=%s shape=%dx%d elem=%d payload=%zu fill=%s",
+      "[n1] topic=%s rate=%.2fHz profile=%s encoding=%s shape=%dx%d elem=%d payload=%zu fill=%s",
       topic_name_.c_str(),
       rate_hz_,
       profile_.c_str(),

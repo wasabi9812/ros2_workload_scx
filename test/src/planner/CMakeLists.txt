@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(process)
+project(planner)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -10,11 +10,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor REQUIRED)
 
-add_executable(n2 src/preprocess_node.cpp)
-ament_target_dependencies(n2 rclcpp sensor)
+add_executable(n3 src/n3.cpp)
+ament_target_dependencies(n3 rclcpp sensor)
 
 install(TARGETS
-  n2
+  n3
   DESTINATION lib/${PROJECT_NAME}
 )
 

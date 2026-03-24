@@ -1,4 +1,4 @@
-preprocess_node:
+n2:
   ros__parameters:
     input_topic: /sensor_input
     output_topic: /preprocessed

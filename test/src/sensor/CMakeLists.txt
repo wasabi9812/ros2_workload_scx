@@ -13,15 +13,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WorkloadMsg.msg"
 )
 
-add_executable(sensor_source src/sensor_source.cpp)
-ament_target_dependencies(sensor_source rclcpp)
+add_executable(n1 src/sensor_source.cpp)
+ament_target_dependencies(n1 rclcpp)
 
 rosidl_get_typesupport_target(cpp_typesupport_target
   ${PROJECT_NAME} "rosidl_typesupport_cpp")
-target_link_libraries(sensor_source "${cpp_typesupport_target}")
+target_link_libraries(n1 "${cpp_typesupport_target}")
 
 install(TARGETS
-  sensor_source
+  n1
   DESTINATION lib/${PROJECT_NAME}
 )
 

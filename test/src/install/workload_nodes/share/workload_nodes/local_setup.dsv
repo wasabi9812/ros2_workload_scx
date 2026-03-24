@@ -1,4 +1,0 @@
-source;share/workload_nodes/environment/ament_prefix_path.sh
-source;share/workload_nodes/environment/library_path.sh
-source;share/workload_nodes/environment/path.sh
-source;share/workload_nodes/environment/pythonpath.sh

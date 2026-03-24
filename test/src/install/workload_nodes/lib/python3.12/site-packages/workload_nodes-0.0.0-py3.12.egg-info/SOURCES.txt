@@ -1,8 +1,0 @@
-setup.py
-workload_nodes/__init__.py
-workload_nodes.egg-info/PKG-INFO
-workload_nodes.egg-info/SOURCES.txt
-workload_nodes.egg-info/dependency_links.txt
-workload_nodes.egg-info/top_level.txt
-workload_nodes/msg/__init__.py
-workload_nodes/msg/_workload_msg.py
