@@ -1,0 +1,4 @@
+source;share/fanout/local_setup.bash
+source;share/fanout/local_setup.dsv
+source;share/fanout/local_setup.sh
+source;share/fanout/local_setup.zsh

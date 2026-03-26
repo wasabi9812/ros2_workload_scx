@@ -1,0 +1,72 @@
+[0.007s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/n1_4/src/fanout -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.094s] -- The CXX compiler identification is GNU 13.3.0
+[0.106s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.440s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.467s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.476s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.633s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.649s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.700s] -- Found sensor: 0.0.0 (/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/share/sensor/cmake)
+[0.709s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.795s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.795s] -- Configured cppcheck include dirs: 
+[0.795s] -- Configured cppcheck exclude dirs and/or files: 
+[0.795s] -- Added test 'lint_cmake' to check CMake code style
+[0.796s] -- Added test 'uncrustify' to check C / C++ code style
+[0.796s] -- Configured uncrustify additional arguments: 
+[0.796s] -- Added test 'xmllint' to check XML markup files
+[0.797s] -- Configuring done (0.8s)
+[0.805s] -- Generating done (0.0s)
+[0.808s] -- Build files have been written to: /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout
+[0.815s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/n1_4/src/fanout -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout
+[0.817s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout -- -j20 -l20
+[0.858s] [ 25%] [32mBuilding CXX object CMakeFiles/n5.dir/src/n5.cpp.o[0m
+[0.858s] [ 50%] [32mBuilding CXX object CMakeFiles/n6.dir/src/n6.cpp.o[0m
+[6.473s] [ 75%] [32m[1mLinking CXX executable n5[0m
+[6.539s] [100%] [32m[1mLinking CXX executable n6[0m
+[6.686s] [100%] Built target n5
+[6.726s] [100%] Built target n6
+[6.735s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout -- -j20 -l20
+[6.736s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout
+[6.742s] -- Install configuration: ""
+[6.742s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/lib/fanout/n5
+[6.744s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/lib/fanout/n5" to ""
+[6.744s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/lib/fanout/n6
+[6.746s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/lib/fanout/n6" to ""
+[6.746s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/config
+[6.746s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/config/n6_config.yaml
+[6.746s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/config/n5_config.yaml
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/ament_index/resource_index/package_run_dependencies/fanout
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/ament_index/resource_index/parent_prefix_path/fanout
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/environment/ament_prefix_path.sh
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/environment/ament_prefix_path.dsv
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/environment/path.sh
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/environment/path.dsv
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/local_setup.bash
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/local_setup.sh
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/local_setup.zsh
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/local_setup.dsv
+[6.747s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/package.dsv
+[6.748s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/ament_index/resource_index/packages/fanout
+[6.748s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.748s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/cmake/fanoutConfig.cmake
+[6.748s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/cmake/fanoutConfig-version.cmake
+[6.748s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/fanout/share/fanout/package.xml
+[6.748s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout

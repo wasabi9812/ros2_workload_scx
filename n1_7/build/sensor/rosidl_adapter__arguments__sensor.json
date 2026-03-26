@@ -1,0 +1,6 @@
+{
+  "package_name": "sensor",
+  "non_idl_tuples": [
+    "/home/cnrlab/Desktop/scx_basic/workload/n1_4/src/sensor:msg/WorkloadMsg.msg"
+  ]
+}

@@ -1,0 +1,66 @@
+[0.007s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/n1_4/src/sink -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink
+[0.052s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.106s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.440s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.463s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.549s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.550s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.612s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.631s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Found sensor: 0.0.0 (/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/share/sensor/cmake)
+[0.722s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.800s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.800s] -- Configured cppcheck include dirs: 
+[0.800s] -- Configured cppcheck exclude dirs and/or files: 
+[0.800s] -- Added test 'lint_cmake' to check CMake code style
+[0.800s] -- Added test 'uncrustify' to check C / C++ code style
+[0.800s] -- Configured uncrustify additional arguments: 
+[0.801s] -- Added test 'xmllint' to check XML markup files
+[0.801s] -- Configuring done (0.8s)
+[0.808s] -- Generating done (0.0s)
+[0.810s] -- Build files have been written to: /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink
+[0.817s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cnrlab/Desktop/scx_basic/workload/n1_4/src/sink -DCMAKE_INSTALL_PREFIX=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink
+[0.818s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink -- -j20 -l20
+[0.853s] [ 50%] [32mBuilding CXX object CMakeFiles/n4.dir/src/n4.cpp.o[0m
+[6.207s] [100%] [32m[1mLinking CXX executable n4[0m
+[6.414s] [100%] Built target n4
+[6.426s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink -- -j20 -l20
+[6.427s] Invoking command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink
+[6.435s] -- Install configuration: ""
+[6.435s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/lib/sink/n4
+[6.439s] -- Set non-toolchain portion of runtime path of "/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/lib/sink/n4" to ""
+[6.439s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/config
+[6.439s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/config/sink_config.yaml
+[6.439s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/ament_index/resource_index/package_run_dependencies/sink
+[6.439s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/ament_index/resource_index/parent_prefix_path/sink
+[6.439s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/environment/ament_prefix_path.sh
+[6.440s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/environment/ament_prefix_path.dsv
+[6.440s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/environment/path.sh
+[6.440s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/environment/path.dsv
+[6.440s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/local_setup.bash
+[6.440s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/local_setup.sh
+[6.440s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/local_setup.zsh
+[6.440s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/local_setup.dsv
+[6.441s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/package.dsv
+[6.441s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/ament_index/resource_index/packages/sink
+[6.441s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.441s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/cmake/sinkConfig.cmake
+[6.441s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/cmake/sinkConfig-version.cmake
+[6.441s] -- Installing: /home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sink/share/sink/package.xml
+[6.443s] Invoked command in '/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink' returned '0': AMENT_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cnrlab/Desktop/scx_basic/workload/n1_4/install/sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cnrlab/Desktop/scx_basic/workload/n1_4/build/sink

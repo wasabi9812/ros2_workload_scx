@@ -1,0 +1,13 @@
+n5:
+  ros__parameters:
+    input_topic: /preprocessed
+    qos_depth: 10
+    enable_lidar: true
+    enable_odom: true
+    enable_camera: true
+    enable_can: true
+    lidar_topic: /fanout/lidar
+    odom_topic: /fanout/odom
+    camera_topic: /fanout/camera
+    can_topic: /fanout/can
+    log_every_n: 100

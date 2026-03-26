@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-484e5ebd378b8d84f6fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fanout",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fanout_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fanout_uninstall-9f2faf4eed8227315bb4.json",
+					"name" : "fanout_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "n5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-n5-998bd3f76371b2c9f760.json",
+					"name" : "n5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "n6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-n6-276d30af0772f93e635b.json",
+					"name" : "n6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-331fcf2a3ca3a4b30d32.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cnrlab/Desktop/scx_basic/workload/n1_4/build/fanout",
+		"source" : "/home/cnrlab/Desktop/scx_basic/workload/n1_4/src/fanout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,16 @@
+n7:
+  ros__parameters:
+    qos_depth: 10
+    enable_lidar: true
+    enable_odom: true
+    enable_camera: true
+    enable_can: true
+    lidar_topic: /fanout/lidar
+    odom_topic: /fanout/odom
+    camera_topic: /fanout/camera
+    can_topic: /fanout/can
+    verify_shape: true
+    compute_iterations: 12
+    touch_bytes: 1024
+    checksum_mode: xor32
+    log_every_n: 100

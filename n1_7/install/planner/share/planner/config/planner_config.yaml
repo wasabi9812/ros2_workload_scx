@@ -1,0 +1,10 @@
+n3:
+  ros__parameters:
+    input_topic: /preprocessed
+    output_topic: /planned
+    qos_depth: 10
+    compute_iterations: 16
+    touch_bytes: 2048
+    patch_bytes: 64
+    verify_shape: true
+    log_every_n: 50

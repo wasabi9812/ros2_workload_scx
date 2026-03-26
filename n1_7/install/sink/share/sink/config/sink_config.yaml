@@ -1,0 +1,8 @@
+n4:
+  ros__parameters:
+    input_topic: /planned
+    qos_depth: 10
+    verify_shape: true
+    verify_seq_gap: true
+    checksum_mode: byte_sum
+    log_every_n: 50

@@ -1,0 +1,6 @@
+source;share/sink/hook/cmake_prefix_path.dsv
+source;share/sink/hook/cmake_prefix_path.sh
+source;share/sink/local_setup.bash
+source;share/sink/local_setup.dsv
+source;share/sink/local_setup.sh
+source;share/sink/local_setup.zsh
